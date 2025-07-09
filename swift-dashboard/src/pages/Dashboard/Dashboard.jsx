@@ -96,8 +96,13 @@ function Dashboard() {
             className="profile__logo"
           />
         </div>
+
         {user && (
-          <div className="profile__name-logo">
+          <div
+            className="profile__name-logo"
+            onClick={() => navigate("/profile")}
+            style={{ cursor: "pointer" }}
+          >
             <div className="profile__user-circle">{initials}</div>
             <span className="profile__name-text">{user.name}</span>
           </div>
