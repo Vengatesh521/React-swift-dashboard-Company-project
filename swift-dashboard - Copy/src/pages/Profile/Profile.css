@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+}
+
+.profile__page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.profile__header {
+  background-color: #1a1f36;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.profile__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile__logo {
+  height: 35px;
+  box-shadow: 0 2px 8px rgb(255, 255, 255);
+  background: rgb(87, 86, 86);
+}
+
+.profile__name-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile__user-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  color: #1a1f36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.profile__name-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* Welcome */
+.profile__welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 40px 10px;
+  color: #1a1f36;
+}
+
+.profile__back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #1a1f36;
+  display: flex;
+  align-items: center;
+}
+
+/* Container */
+.profile__container {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Card */
+.profile__card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+}
+
+.profile__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.profile__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  color: #1a1f36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile__name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1f36;
+}
+
+.profile__email {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Details Section */
+.profile__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.profile__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__field label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.profile__field input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  pointer-events: none;
+}
+
+/* Button */
+.profile__button {
+  margin-top: 30px;
+  background-color: #1a1f36;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.profile__button:hover {
+  background-color: #2c3e50;
+}
+
+/* Loading */
+.profile__loading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
